@@ -1,0 +1,45 @@
+:root {
+    --dark: #701970;
+    --light: #F1D4F1;
+    --middle: #926692;
+
+}
+
+body {
+    background-color: var(--light);
+}
+
+header {
+    background-color: var(--dark);
+    color:var(--light);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+header h1{
+    font size: 36px;
+    font-family: sans-serif;
+}
+
+.textright {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+}
+
+.subheader {
+    display: flex;
+    height: 300px;
+    width: 100pt;
+    color: var(light);
+    background-image:url("greenheader.jpg");
+}
+
+.subheader h2 {
+
+
+}
