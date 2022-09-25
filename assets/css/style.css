@@ -29,19 +29,19 @@ header h1{
     color: var(--light);
 }
 
-ul a:link{
+nav ul a:link{
     color: var(--light);
 }
 
-ul a:visited{
+nav ul a:visited{
     color: var(--light);
 }
 
-ul a:hover{
+nav ul a:hover{
     color: var(--hoveractive);
 }
 
-ul a:active{
+nav ul a:active{
     color: var(--hoveractive);
 }
 
@@ -63,4 +63,62 @@ h2 {
     color: var(--light);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
+}
+
+.navlink {
+    display:flex;
+    
+}
+
+#aboutme {
+    display:flex;
+    align-items: center;
+}
+
+.aboutmesection {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 4px solid var(--dark);
+    font-size: 28px;
+    color: var(--dark);
+}
+
+#work {
+
+}
+
+.worksamples {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 4px solid var(--dark);
+}
+
+h3 {
+    color:var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    border-right: var(--dark);   
+}
+
+footer p {
+    color:var(--dark);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#contactme {
+    display:flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.contactmeinfo {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-left: 4px solid var(--dark);
 }
