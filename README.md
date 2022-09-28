@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-The links at the top will take you to each section of the site. The Work section will take you to my work samples. The siteClick on the links at the bottom for contact information.
+The links at the top will take you to each section of the site. The Work section will take you to my work samples. Click on the links at the bottom for contact information, GitHub site, and linkedin.
 
 ## Credits
 
